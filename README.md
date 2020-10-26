@@ -873,7 +873,16 @@
     <article class="markdown-body entry-content container-lg" itemprop="text"><h1><a id="user-content-fivem-server-status" class="anchor" aria-hidden="true" href="#fivem-server-status"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>FiveM Server Status</h1>
 <p>FiveM Server Status Discord Bot</p>
 <p>A custom discord bot providing functionality for interacting with fiveM servers and a discord community.</p>
-<li>Set config variables as described below</li>
+<h2><a id="user-content-requirements" class="anchor" aria-hidden="true" href="#requirements"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Requirements:</h2>
+<ul>
+<li>Included fivemqueue
+I have edited the source code of <a href="https://github.com/anderscripts/FiveM_Queue">https://github.com/anderscripts/FiveM_Queue</a> and added that it will change the queue count in the    vars so it will update accurate.</li>
+</ul>
+<h2><a id="user-content-setup" class="anchor" aria-hidden="true" href="#setup"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Setup</h2>
+<ol>
+<li>Add the included fivemqueue to your server resources</li>
+<li>Start the fivemqueue in your server.cfg</li>
+<li>Set enviroment variables as described below</li>
 </ol>
 <pre><code>URL_SERVER - base url for fiveM server e.g. http://127.0.0.1:3501 (don't end with /)
 LOG_LEVEL - Int of enum 0-4 specifying level of logs to display with 4 as no logs
@@ -896,7 +905,12 @@ LOG_CHANNEL - channel to log status changes
 <li>+status clear to clear the warning message.</li>
 </ol>
 <p><a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/24abaa696adffd37cdb9c6fa6a558a857d7788f5/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3432343838363233393431303338383939322f3632353733393239383834363830313933362f756e6b6e6f776e2e706e67"><img src="https://camo.githubusercontent.com/24abaa696adffd37cdb9c6fa6a558a857d7788f5/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3432343838363233393431303338383939322f3632353733393239383834363830313933362f756e6b6e6f776e2e706e67" alt="Screenshot" data-canonical-src="https://media.discordapp.net/attachments/424886239410388992/625739298846801936/unknown.png" style="max-width:100%;"></a></p>
+<h2><a id="user-content-credits" class="anchor" aria-hidden="true" href="#credits"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Credits</h2>
 <ul>
+<li>Roque <a href="https://github.com/RoqueDEV">https://github.com/RoqueDEV</a></li>
+<li>Douile <a href="https://github.com/Douile">https://github.com/Douile</a></li>
+<li>drazero <a href="https://github.com/draZer0">https://github.com/draZer0</a></li>
+<li>Queue script: <a href="https://github.com/anderscripts/FiveM_Queue">https://github.com/anderscripts/FiveM_Queue</a></li>
 </ul>
 </article>
   </div>
